@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRight, Boxes, CheckCircle2, ExternalLink, Layers3, Rocket, ShieldCheck, Sparkles, Workflow, Zap } from "lucide-react";
+import { ArrowRight, CheckCircle2, ExternalLink, Layers3, Rocket, ShieldCheck, Sparkles, Workflow, Zap } from "lucide-react";
 import { motion } from "framer-motion";
 
 const products = [
@@ -65,14 +65,8 @@ export default function Ok2AppLandingPage() {
       </div>
 
       <header className="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-6 lg:px-8">
-        <a href="#" className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/10 shadow-2xl shadow-cyan-500/10 backdrop-blur">
-            <Boxes className="h-5 w-5 text-cyan-300" />
-          </div>
-          <div>
-            <p className="text-lg font-semibold tracking-tight">ok2app</p>
-            <p className="text-xs text-white/45">SaaS Studio</p>
-          </div>
+        <a href="#" className="flex items-center">
+          <img src="/ok2app-logo-highlight.png" alt="ok2app" className="h-9" />
         </a>
 
         <nav className="hidden items-center gap-8 text-sm text-white/65 md:flex">
@@ -280,7 +274,10 @@ export default function Ok2AppLandingPage() {
       </section>
 
       <footer className="mx-auto flex w-full max-w-7xl flex-col justify-between gap-4 border-t border-white/10 px-6 py-8 text-sm text-white/45 md:flex-row lg:px-8">
-        <p>© {new Date().getFullYear()} OK2APP. SaaS Studio.</p>
+        <div className="flex items-center gap-3">
+          <img src="/ok2app-logo.png" alt="ok2app" className="h-6 opacity-60" />
+          <p>© {new Date().getFullYear()} OK2APP. SaaS Studio.</p>
+        </div>
         <p>Construyendo herramientas modernas para negocios reales.</p>
       </footer>
     </main>
