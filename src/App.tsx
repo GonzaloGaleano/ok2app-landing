@@ -262,7 +262,7 @@ export default function Ok2AppLandingPage() {
             </p>
             <div className="mt-8 flex justify-center">
               <a
-                href="mailto:hola@ok2app.com"
+                href="mailto:gozpellz@gmail.com"
                 className="group inline-flex items-center justify-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-black transition hover:bg-cyan-100"
               >
                 Contactar
